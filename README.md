@@ -1,2 +1,2 @@
 # My Snippets
-Sample code snippets from various domeains.
+Sample code snippets from various domains.
