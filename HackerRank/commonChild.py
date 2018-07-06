@@ -1,0 +1,1 @@
+string1 = raw_input()

@@ -1,0 +1,17 @@
+{
+  "name": "download-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gokul Nath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "mime": "^1.3.4",
+    "path": "^0.12.7"
+  }
+}

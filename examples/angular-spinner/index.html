@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spinner</title>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/spin.js/spin.js"></script>
+  <script src="bower_components/angular-spinner/angular-spinner.js"></script>
+  <script src="script.js"></script>
+</head>
+<body ng-app="myapp" ng-controller="MyCtrl">
+<input type="button" ng-click="startSpin()" value="Start spinner"/>
+<input type="button" ng-click="stopSpin()" value="Stop spinner">
+<span us-spinner="{radius:10, width:4, length: 8}" spinner-key="spinner-1"></span>
+</body>
+</html>

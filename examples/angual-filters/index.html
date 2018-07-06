@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title>Angular</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script type="text/javascript" src="core.js"></script>
+</head>
+<body ng-controller="myCtrl">
+<input type="text" placeholder="search" ng-model=search>
+  <ul ng-repeat="name in names | filter:{Fname: search}">
+    <li>{{name.Fname}} {{name.Lname}}</li>
+  </ul>
+</body>
+</html>
