@@ -22,7 +22,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "babel-register": "^6.9.0",
     "css-loader": "^0.23.1",
-    "node-sass": "^3.8.0",
+    "node-sass": "^4.14.1",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-redux": "^4.4.5",
